@@ -1,0 +1,43 @@
+# Generated data, runs, and local environments
+/data/
+/runs/
+/logs/
+/benchmarks/
+/real_robot/
+/paper/
+/.venv/
+/.local/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.log
+/*.zip
+*.bundle
+
+# Local credentials and configuration
+/key.txt
+.env
+.env.*
+/.agents/
+/.aws/
+/.codex/
+
+# Research notes, draft tooling, and local planning
+/docs/implementation.md
+/docs/libero_comparison.md
+/docs/novelty_check.md
+/docs/paper_*.md
+/docs/perception_front_end.md
+/docs/research_plan.md
+/docs/robotwin_hard_plan.md
+/scripts/mark_outline_changes.py
+/scripts/move_arch_to_44.py
+/setup/analyse_20k.sh
+*.bak
+/task_plan.md
+/findings.md
+/progress.md
